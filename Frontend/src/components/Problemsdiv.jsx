@@ -5,7 +5,7 @@ import Cards from './Cards'
 function Problemsdiv() {
   return (
     <>
-      <div>
+      <div className="grid md:grid-cols-3 gap-4">
           {
             list.map((card,index)=>(
                 <Cards
